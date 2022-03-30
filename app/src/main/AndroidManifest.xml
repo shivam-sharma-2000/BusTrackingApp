@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
         <activity
-            android:name=".Home_Page"
+            android:name=".Sign_Up"
             android:exported="false" />
         <activity
-            android:name=".Sign_Up"
+            android:name=".Home_Page"
             android:exported="false" />
         <activity
             android:name=".Sign_In"

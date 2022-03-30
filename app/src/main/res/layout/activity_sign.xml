@@ -106,7 +106,7 @@
         app:layout_constraintTop_toBottomOf="@+id/Username" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/SignIn"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="36dp"
@@ -131,8 +131,23 @@
         android:text="Reset My Password"
         android:textColor="#FFF"
         android:textSize="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/SignInToSignUp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/SignIn" />
+
+    <TextView
+        android:id="@+id/SignInToSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New User"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold|italic"
+        android:layout_marginStart="10dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/textView4"
+        app:layout_constraintTop_toBottomOf="@id/SignIn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
